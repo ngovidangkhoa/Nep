@@ -1,0 +1,35 @@
+
+h1 {
+		color: color red;
+		font-size: 40px;
+		text-align: center;
+		background-image: url(https://vignette.wikia.nocookie.net/neptunia/images/5/51/CPU_Memory.png/revision/latest?cb=20140730033808);
+		background-position: center;
+		background-repeat: no-repeat;
+		padding: 100px;
+	}
+
+
+h2 {
+		background-image: linear-gradient(#d2db32,#3bed8e);
+		color: #383eed;
+		padding: 5px
+	}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.a {
+	font-size: 22px;
+	text-align: center;
+	background-color: #ed3bbd;
+	padding: 2px;
+	color: #deff3a;
+	}
+
+div.b {
+	font-size: 15px;
+	text-align: right;
+	}

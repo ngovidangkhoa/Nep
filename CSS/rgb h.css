@@ -21,6 +21,12 @@ img {
 	margin-right: auto;
 }
 
+div.123  {
+
+
+
+}
+
 div.a {
 	font-size: 22px;
 	text-align: center;
@@ -30,6 +36,10 @@ div.a {
 	}
 
 div.b {
-	font-size: 15px;
-	text-align: right;
+	font-size: 30px;
+	text-align: center;
 	}
+
+div.c {
+	background-image: linear-gradient(purple,#3bed8e);
+}

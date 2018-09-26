@@ -1,3 +1,16 @@
+div.Portfolio {
+		font-size: 25px;
+		font-family: "Georgia";
+		text-align: center;
+		background-color: red;
+}
+
+div.abc {
+	position:fixed;
+    right:0px;
+    bottom:0px;
+
+}
 
 h1 {
 		color: color red;
@@ -21,11 +34,6 @@ img {
 	margin-right: auto;
 }
 
-div.123  {
-
-
-
-}
 
 div.a {
 	font-size: 22px;
@@ -42,4 +50,31 @@ div.b {
 
 div.c {
 	background-image: linear-gradient(purple,#3bed8e);
+}
+
+div.button 1 {
+
+font-size: 45px;;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+	background-color: gray;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }

@@ -52,7 +52,6 @@ function test3(){
 
 	}
 
-
 function FizzBuzz(){
 	for ( var i=1; i <=100; i++) 
 	{
@@ -74,6 +73,7 @@ function FizzBuzz(){
 			}
 		}
 }
+
 
 
 

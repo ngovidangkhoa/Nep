@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Program Test </title>
+<script src="JS\ProgramTestJS.js"></script> 
+</head>
+<body>
+
+<h1>All tests show here.</h1>
+
+<button onclick="A6()">A6 test</button>
+
+  
+</body>
+</html>

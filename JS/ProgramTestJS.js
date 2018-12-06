@@ -24,4 +24,4 @@ return (ciphertext);
 
 }
 
-console.log(pigencr("hello my name is simon"));
+console.log(A6("hello my name is simon"));

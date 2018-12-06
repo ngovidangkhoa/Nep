@@ -1,5 +1,6 @@
 function A6(plaintext){
 
+
 var ciphertext="";
 
 var wordlist=plaintext.split(" ");
@@ -10,7 +11,9 @@ if(wordlist[i].length > 2){
 
 ciphertext = ciphertext + wordlist[i].substring(1, ) + wordlist[i][0]+ " cts " + wordlist[i].toUpperCase() + " Fish! ";
 
-} else {
+}
+
+else {
 
 ciphertext = ciphertext + wordlist[i] + "tsc " + "fake";
 
@@ -22,4 +25,5 @@ return ("tsccts " + ciphertext + "tsccts");
 
 }
 
-console.log(A6("Fish is fish, but dog is not a fish"));
+getElementById('demo').innerHTML=(A6("Fish is fish, but dog is not a fish"));
+

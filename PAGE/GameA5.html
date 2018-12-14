@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<script src="..\JS\Complete Assisment A5.js"></script> 
+	<link rel="stylesheet" type="text/css" href="..\CSS\Assisment.css">	
 </head>
 <body>
 <h1> Assisment A5 </h1>
 <h2> Low high Game </h2>
-<fieldset>
- <label for="guess">Enter Your Guess Number:</label>
- <input type="text" id="guess" value="...." />
- <input type="button" onclick="A5()" value="submit" /><br />
- <button onclick="location.reload();">New Game</button>
-</fieldset>
-<fieldset>
- <legend> Log: </legend>
- <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
- <p> Number of Tried: </p>
- <textarea id="count1" rows="1" style="width:2%;"></textarea>
-</fieldset>
+
+	<div class="A5fieldset"> <fieldset>
+	 <label for="guess">Enter Your Guess Number:</label>
+	 <input type="text" id="guess" value="...." />
+	 <input type="button" onclick="A5()" value="submit" /><br />
+	 <button onclick="location.reload();">New Game</button>
+	</fieldset>
+	</div>
+
+					<div class="A5fieldset2">
+					<fieldset>
+					 <legend> Log: </legend>
+					 <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
+					 <p> Number of Tried: </p>
+					 <textarea id="count1" rows="1" style="width:2%;"></textarea>
+					</fieldset>
+					</div>
 <br>
 <a href="..\Mainpage.html"><button>Go back to main page "Q"</button></a>
 

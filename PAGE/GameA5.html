@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="..\JS\Complete Assisment A5.js"></script> 
+</head>
+<body>
+<h1> Assisment A5 </h1>
+<h2> Low high Game </h2>
+<fieldset>
+ <label for="guess">Enter Your Guess Number:</label>
+ <input type="text" id="guess" value="...." />
+ <input type="button" onclick="A5()" value="submit" /><br />
+ <button onclick="location.reload();">New Game</button>
+</fieldset>
+<fieldset>
+ <legend> Log: </legend>
+ <textarea id="output" name="output" rows="10" style="width: 100%;"></textarea>
+ <p> Number of Tried: </p>
+ <textarea id="count1" rows="1" style="width:2%;"></textarea>
+</fieldset>
+<br>
+<a href="..\Mainpage.html"><button>Go back to main page "Q"</button></a>
+
+
+<script> 
+	function checkKeyPressed(event) {
+    if (event.keyCode == "81") {
+       window.location.href="https://htmlpreview.github.io/?https://github.com/ngovidangkhoa/Nep/blob/gh-pages/Mainpage.html";
+    }
+}
+window.addEventListener("keydown", checkKeyPressed, false);
+
+</script>
+	
+</body>
+</html>

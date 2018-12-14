@@ -25,29 +25,3 @@ function pattern(){
 	
 	}
 }
-
-function gametest(){
-var number;
-var try1 = Math.floor(Math.random()*1000 + 1);
-var n = 0;
-
-if (number<try1){
-	document.getElementById("Wrong").innerHTML="You are too low";
-}
-else if (number>try1){
-	document.getElementById("Wrong").innerHTML="Too high!!!";
-}
-
-else if (number==try1){
-	document.getElementById("Correct").innerHTML="Correct!!!, how do you feel?";
-}
-else{
-	document.getElementById ("Wrong").innerHTML="is it a number?";
-}
-}
-
-function A6(test123){
-	return (test123.split(" con ")[1]);
-
-}
-console.log(A6("dit con me may"));
